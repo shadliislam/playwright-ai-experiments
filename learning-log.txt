@@ -1,0 +1,18 @@
+Goal: AI-assisted UI testing with Playwright CLI
+
+What I tried:
+Set up Playwright CLI locally and attempted to open and interact with a public website using CLI commands.
+
+What I learned:
+- Playwright CLI is separate from Playwright Test and requires @playwright/cli.
+- Invalid package.json scripts can break npm install.
+- The correct invocation is `npx @playwright/cli`, not `npx playwright-cli`.
+- Snapshot output (e# references) is required before interactions.
+
+Evidence:
+- readme (Playwright CLI setup steps)
+- GitHub repo: playwright-ai-learning
+- Commands executed: open, snapshot
+
+Next step:
+Generate an AI-driven interaction and copy the generated code into an ai-generated Playwright test for comparison with a manual test.
