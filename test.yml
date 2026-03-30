@@ -1,0 +1,7 @@
+mkdir pdp-playwright-ai-learning
+cd pdp-playwright-ai-learning
+git init
+
+npm init -y
+npm i -D @playwright/test
+npx playwright install
